@@ -93,8 +93,8 @@ jobs:
       run: |
         cd build && ninja
     - uses: actions/upload-artifact@v4
-with:
-name: aseprite
-path: |
-D:/a/aseprite/aseprite/build/bin/data
-D:/a/aseprite/aseprite/build/bin/aseprite.exe
+      with:
+        name: aseprite
+        path: |
+          D:/a/aseprite/aseprite/build/bin/data
+          D:/a/aseprite/aseprite/build/bin/aseprite.exe
